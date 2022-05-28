@@ -1,3 +1,6 @@
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua'))()
+
+
 local Window = Library.CreateLib("Falxe's Tower of Hell", 'Midnight')
 
 
@@ -27,7 +30,7 @@ local Window = Library.CreateLib("Falxe's Tower of Hell", 'Midnight')
         loadstring(game:HttpGet("https://pastebin.com/raw/rS2DBx4Y", true))()
     end)    
     
-    MainSection:NewKeybind("Toggle GUI", "Toggles the TOH GUI.", Enum.KeyCode.F, function()
+    MainSection:NewKeybind("Toggle GUI (CLICK THE 3 DOTS)", "Toggles the TOH GUI. Press the box next to the three dots and set your keybind there.", Enum.KeyCode.F, function()
         Library:ToggleUI()
     end)
 
