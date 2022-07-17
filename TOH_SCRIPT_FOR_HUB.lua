@@ -5,7 +5,7 @@ local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/xHept
 
 
 
-function TOH()
+
 local Window = Library.CreateLib("Falxe's Tower of Hell", 'Midnight')
 
 
@@ -63,11 +63,4 @@ local Window = Library.CreateLib("Falxe's Tower of Hell", 'Midnight')
 
     CreditsSection:NewLabel('Created by NotFalxe.')
 
-end
-
-
-
-if game.PlaceId == 1962086868 then
-    TOH()
-end
 
